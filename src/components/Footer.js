@@ -15,7 +15,7 @@ export const Footer = () => {
             <div className="social-icon">
                 <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/awakemanish/" tar><img src={navIcon1} alt="" /></a>
                 <a target="_blank" rel="noreferrer" href="https://github.com/awakemanish"><img src={navIcon2} alt="" /></a>
-                <a target="_blank" rel="noreferrer" href="malito:manishsbrlreso@gmail.com"><img src={navIcon3} alt="" /></a>
+                <a target="_blank" rel="noreferrer" href="https://www.instagram.com/awakemanish/"><img src={navIcon3} alt="" /></a>
               </div>
             <p>Copyright 2024. All Rights Reserved</p>
           </Col>

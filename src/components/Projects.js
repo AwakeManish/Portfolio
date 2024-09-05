@@ -7,7 +7,7 @@ import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.png";
 import projImg6 from "../assets/img/project-img6.png";
 import projImg7 from "../assets/img/project-img7.png";
-import projImg8 from "../assets/img/project-img8.gif";
+import projImg8 from "../assets/img/project-img8.png";
 import projImg9 from "../assets/img/project-img9.gif";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -49,10 +49,10 @@ export const Projects = () => {
       projectUrl: "https://awakemanish.github.io/Gaming-Website/"
     },
     {
-      title: "Bank note authentication website",
-      description: "This is a machine learning project to detect whether a note is real or fake [Accuracy : 99% | No Overfitting].",
+      title: "Simon Game",
+      description: "A modern web version of the classic Simon memory game.",
       imgUrl: projImg6,
-      projectUrl: "https://bank-note-authentication.netlify.app/"
+      projectUrl: "https://awakemanish.github.io/Simon-Game/"
     }
   ];
   const projects3 = [
@@ -63,10 +63,10 @@ export const Projects = () => {
       projectUrl: "https://simple-weather-website.netlify.app/"
     },
     {
-      title: "Lame jokes chrome extension",
-      description: "Every time you click on the extension you will get a random joke !",
+      title: "Drum Kit",
+      description: "Drum kit combining classic sounds with cutting-edge tech",
       imgUrl: projImg8,
-      projectUrl: "https://github.com/AwakeManish/lame-jokes-chrome-extension"
+      projectUrl: "https://awakemanish.github.io/Drum-Kit/"
     },
     {
       title: "Real time key logger",
