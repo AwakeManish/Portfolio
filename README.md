@@ -1,4 +1,5 @@
 # Personal Portfolio Website in React
+
 Project is live at https://awakemanish.github.io/Portfolio/
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -31,8 +32,27 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Deployment
 
+Step 1: Install gh-pages
+npm install gh-pages --save-dev
 
-### in order to deploy go through the below
-https://chatgpt.com/share/6707c7ae-5ff0-800f-893c-45b71ae21182
+Step 2: Update package.json
+
+Add a homepage field: In your package.json, add a homepage field that specifies your GitHub Pages URL:
+"homepage": "https://<username>.github.io/<repository-name>"
+
+Add deployment scripts: Also, add the following scripts in the scripts section of your package.json:
+"scripts": {
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build"
+}
+Step 3: Commit Changes
+git add .
+git commit -m "Add gh-pages deployment"
+
+Step 4: Deploy Your App
+npm run deploy
+
+Step 5: Access Your Deployed App
+https://<username>.github.io/<repository-name>
