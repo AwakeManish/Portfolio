@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.b8042b03.css",
-    "main.js": "/Portfolio/static/js/main.6f5fbde8.js",
+    "main.js": "/Portfolio/static/js/main.6e7e4abe.js",
     "static/media/header-img.png": "/Portfolio/static/media/header-img.ee4138455f188dc2f682.png",
     "static/media/contact-img.png": "/Portfolio/static/media/contact-img.f9d28555f0be40f6f448.png",
     "static/media/banner-bg.png": "/Portfolio/static/media/banner-bg.c2e0834c4664bbf2c68a.png",
@@ -21,6 +21,7 @@
     "static/media/project-img2.png": "/Portfolio/static/media/project-img2.b98520f904300d831c60.png",
     "static/media/footer-bg.png": "/Portfolio/static/media/footer-bg.7bd67c0f73571d0acc02.png",
     "static/media/project-img6.png": "/Portfolio/static/media/project-img6.af2c984745c54107b297.png",
+    "static/media/nav-icon5.png": "/Portfolio/static/media/nav-icon5.354037271fa2d929e1ef.png",
     "static/media/icons8-mongodb.svg": "/Portfolio/static/media/icons8-mongodb.3f5563431bc89fbaefb9fb5772b9224c.svg",
     "static/media/revicons.eot": "/Portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/Portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
@@ -30,6 +31,7 @@
     "static/media/icons8-express-js.svg": "/Portfolio/static/media/icons8-express-js.d91c10260d4508bc68149fc0bf48c1c0.svg",
     "static/media/icons8-nodejs.svg": "/Portfolio/static/media/icons8-nodejs.cccdafa931eebdaea49f5c5ac3ba232f.svg",
     "static/media/nav-icon3.svg": "/Portfolio/static/media/nav-icon3.2234beda13a6c57bd78665bf21541aaf.svg",
+    "static/media/nav-icon4.webp": "/Portfolio/static/media/nav-icon4.7e2d68fc5de35c9fff74.webp",
     "static/media/icons8-html.svg": "/Portfolio/static/media/icons8-html.e05dc519f445e8306881169981936c14.svg",
     "static/media/icons8-c.svg": "/Portfolio/static/media/icons8-c.f00d9334f1e6c0da4960a74ebe7769cb.svg",
     "static/media/icons8-python.svg": "/Portfolio/static/media/icons8-python.026a62687ef705a39cfc755d7457859c.svg",
@@ -43,10 +45,10 @@
     "static/media/icons8-css.svg": "/Portfolio/static/media/icons8-css.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/icons8-filmora.svg": "/Portfolio/static/media/icons8-filmora.d7a7ab13e72dfed7b3aa492981f6862f.svg",
     "main.b8042b03.css.map": "/Portfolio/static/css/main.b8042b03.css.map",
-    "main.6f5fbde8.js.map": "/Portfolio/static/js/main.6f5fbde8.js.map"
+    "main.6e7e4abe.js.map": "/Portfolio/static/js/main.6e7e4abe.js.map"
   },
   "entrypoints": [
     "static/css/main.b8042b03.css",
-    "static/js/main.6f5fbde8.js"
+    "static/js/main.6e7e4abe.js"
   ]
 }
