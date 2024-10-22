@@ -21,7 +21,7 @@ export const Footer = () => {
                 <a target="_blank" rel="noreferrer" href="http://awakemanish.blogspot.com" aria-label="Blogger"><img src={navIcon4} alt="Blogger" /></a>
                 <a target="_blank" rel="noreferrer" href="https://www.behance.net/eb20a29f" aria-label="Behance"><img src={navIcon5} alt="Behance" /></a>
               </div>
-            <p>Copyright 2024. All Rights Reserved</p>
+          
           </Col>
         </Row>
       </Container>
