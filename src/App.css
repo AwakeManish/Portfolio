@@ -259,16 +259,71 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
+.navbar-collapse {
+  min-height: 100vh;
+}
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .social-icon a {
     width: 32px;
     height: 32px;
   }
-
+    
   .social-icon a img {
     width: 30%;
   }
+  nav.navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  nav.navbar .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.85);
+    /* Add a background color to prevent transparency */
+    position: absolute;
+    top: 70px;
+    /* Adjust the top value to align with your navbar height */
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    padding: 10px;
+    text-align: center;
+    /* Center the menu items */
+    width: 100%;
+    /* Ensure each menu item takes full width */
+  }
+
+  .social-icon {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .navbar-text button {
+    margin: 0 auto;
+    display: block;
+  }
+  nav.navbar .navbar-toggler-icon {
+    width: 30px;
+    height: 30px;
+  }
+.navbar-nav {
+  padding: 10px 0;
+}
+
+.navbar-nav .nav-item {
+  margin: 10px 0;
+  /* Adds some space between menu items */
+}
+
+.navbar-brand {
+  margin-left: 10px;
+}
+
 }
 /************ Banner Css ************/
 .banner {
