@@ -51,11 +51,11 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/awakemanish/" tar><img src={navIcon1} alt="Linkedln" /></a>
-                <a target="_blank" rel="noreferrer" href="https://github.com/awakemanish"><img src={navIcon2} alt="Github" /></a>
-                <a target="_blank" rel="noreferrer" href="https://www.instagram.com/awakemanish/"><img src={navIcon3} alt="Instagram" /></a>
-                <a target="_blank" rel="noreferrer" href="http://awakemanish.blogspot.com"><img src={navIcon4} alt="Blogger" /></a>
-                <a target="_blank" rel="noreferrer" href="https://www.behance.net/eb20a29f"><img src={navIcon5} alt="Behance" /></a>
+                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/awakemanish/" aria-label="Linkedln"><img src={navIcon1} alt="Linkedln" /></a>
+                <a target="_blank" rel="noreferrer" href="https://github.com/awakemanish" aria-label="GitHub"><img src={navIcon2} alt="GitHub" /></a>
+                <a target="_blank" rel="noreferrer" href="https://www.instagram.com/awakemanish/" aria-label="Instagram"><img src={navIcon3} alt="Instagram" /></a>
+                <a target="_blank" rel="noreferrer" href="http://awakemanish.blogspot.com" aria-label="Blogger"><img src={navIcon4} alt="Blogger" /></a>
+                <a target="_blank" rel="noreferrer" href="https://www.behance.net/eb20a29f" aria-label="Behance"><img src={navIcon5} alt="Behance" /></a>
               </div>
               <a href='https://drive.google.com/file/d/1oABK5pEgA-M4g0R4bHfdEHI0d1_C17LP/view?usp=drive_link' target="_blank" rel="noreferrer">
                 <button className="vvd"><span>My Résumé</span></button>
