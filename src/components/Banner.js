@@ -57,7 +57,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Manish`} <br /> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Programmer", "Developer",  "Geek" ]'><span className="wrap">{text}</span></span></h1>
                   <p>
-                  I’m a final-year B.Tech student at IIT Patna, specializing in Computer Science and Engineering, with a passion for Competitive Programming and technology. {index}
+                  B.Tech CSE graduate from IIT Patna, now stepping into the education-tech space as an Academic Manager at K12 Techno Services. Blending tech skills with a passion for learning. {index}
                   </p>
                   <button><a id="anchor-tag" href="#connect">Let’s Connect <ArrowRightCircle size={25} /></a></button>
               </div>}
