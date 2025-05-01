@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.png";
+import headerImg from "../assets/img/header-img.webp";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -64,12 +64,23 @@ export const Banner = () => {
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
-                </div>}
-            </TrackVisibility>
+            <div>
+<img
+  src={headerImg}
+  alt="Header Img"
+  style={{
+    width: '400px',        // Make width and height equal
+    height: '400px',
+    objectFit: 'cover',    // Ensures it doesn't squish
+    borderRadius: '50%',   // Makes it circular
+    display: 'block',
+    margin: '0 auto',      // Optional: center the image
+    background: '#1a1a1a'
+  }}
+/>
+
+</div>
+
           </Col>
         </Row>
       </Container>
